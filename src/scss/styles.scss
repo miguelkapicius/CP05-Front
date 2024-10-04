@@ -1,0 +1,45 @@
+$primary-color: #6502b6;
+$secondary-color: #2ecc71;
+$font-size-small: 12px;
+$font-size-medium: 16px;
+$font-size-large: 24px;
+$avatar-size-small: 40px;
+$avatar-size-medium: 60px;
+$avatar-size-large: 100px;
+
+@mixin text-style($size, $color) {
+  font-size: $size;
+  color: $color;
+}
+
+@mixin avatar-style($size) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-small {
+  @include text-style($font-size-small, $primary-color);
+}
+
+.text-medium {
+  @include text-style($font-size-medium, $secondary-color);
+}
+
+.text-large {
+  @include text-style($font-size-large, $primary-color);
+}
+
+
+.avatar-small {
+  @include avatar-style($avatar-size-small);
+}
+
+.avatar-medium {
+  @include avatar-style($avatar-size-medium);
+}
+
+.avatar-large {
+  @include avatar-style($avatar-size-large);
+}
