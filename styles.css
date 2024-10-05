@@ -1,37 +1,43 @@
 .text-small {
-  font-size: 12px;
-  color: #6502b6;
+    font-size: 12px;
+    color: #6502b6;
 }
 
 .text-medium {
-  font-size: 16px;
-  color: #2ecc71;
+    font-size: 16px;
+    color: #2ecc71;
 }
 
 .text-large {
-  font-size: 24px;
-  color: #6502b6;
+    font-size: 24px;
+    color: #6502b6;
 }
 
 .avatar-small {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .avatar-medium {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .avatar-large {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 80%;
+    }
 }
 
 /*# sourceMappingURL=styles.css.map */

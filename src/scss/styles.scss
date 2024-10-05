@@ -43,3 +43,9 @@ $avatar-size-large: 100px;
 .avatar-large {
   @include avatar-style($avatar-size-large);
 }
+
+@media (max-width: 400px) {
+  html {
+    font-size: 87.5%;
+  }
+}
